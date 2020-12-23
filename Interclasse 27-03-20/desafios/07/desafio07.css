@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container01{
+    background-color: rgb(108,108,108);
+
+    width: 100vw;
+    height: 70vh;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.bola{
+    background-color: rgb(228,228,228);
+
+    height: 9cm;
+    width: 9cm;
+    margin: 0.7cm;
+
+    border-radius: 5000px;
+}
+.container02{
+    background-color: rgb(140,158,128);
+
+    width: 100vw;
+    height: 30vh;
+}

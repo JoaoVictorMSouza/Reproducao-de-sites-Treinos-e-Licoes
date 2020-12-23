@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: 'Whitney-bold';
+    src: url(../Fonts/whitney-bold.otf);
+}
+@font-face{
+    font-family: 'Whitney-book';
+    src: url(../Fonts/whitney-book.otf);
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: #26262b;
+    height: 72px;
+    margin: auto;
+    padding: 0 30px;
+    width: 100%;
+}
+.imagens-menu{
+    background-image: url(../imagens/Branding/logo.png);
+    height: 100%;
+    width: 4cm;
+    background-size: 100% 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 3cm;
+}
+.opcoes-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 1230px;
+}
+.opcoes-menu p{
+    padding: 15px 10px;
+    color: rgba(255, 255, 255,0.8);
+    font-family: 'Whitney-book';
+    font-size: 14px;
+}
+.opcoes2-menu{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.direito-menu{
+    background-image: url(../SocialMedia/Capturar.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100%;
+}
+.direito-ultimo-menu{
+    color: rgba(255, 255, 255,0.8);
+    border: solid rgba(255, 255, 255,0.8) 2px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 14px 23px 0px 23px;
+    text-align: center;
+    font-family: 'Whitney-book';
+    font-size: 15px;
+}
+.inicial{
+    background-color: #26262b;
+    height: 100%;
+    align-content: flex-end;
+    justify-content: center;
+    padding: 65px 0px 0px 0px;
+    margin: 0px;
+}
+.titulo-do-inicial{
+    text-align: center;
+    color: white;
+    font-family: 'Whitney-bold';
+    font-size: 18px;
+    line-height: 15px;
+}
+.texto-do-inicial{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Whitney-book';
+    font-size: 16px;
+    max-width: 700px;
+    padding-top: 0px;
+    margin: auto;
+    line-height: 24px;
+}
+.botoes-inicial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.botao-inicial-1{
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 1cm;
+    text-align: center;
+    color: #18191c;
+    font-family: 'Whitney-book';
+    font-size: 15px;
+}
+.botao-inicial-2{
+    width: 250px;
+    height: 45px;
+    background-color: #7289da;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-family: 'Whitney-book';
+    font-size: 15px;
+}
+.game{
+    margin-top: 0px;
+    background-color: #26262b;
+    background-image: url(../imagens/Background/fundo.png);
+    background-position: top;
+    background-size: 68%;
+    background-repeat: no-repeat;
+    height: 770px;
+}
+.parte-de-baixo{
+    background-image: url(../imagens/Background/fundo2.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: 100%;
+    padding: 80px 160px 48px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    border-bottom: solid rgb(128, 128, 128, 0.2) 1px;
+}
+.rodape h1{
+    color: white;
+    font-family: 'Whitney-book';
+    font-size: 14px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.rodape p{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Whitney-book';
+    font-size: 14px;
+    margin: 5px;
+}
+.a-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+    position: relative;
+    right: 150px;
+}
+.signup{
+    margin-top: 0.8cm;
+    display: flex;
+    flex-direction: row;
+}
+.signup-direito{
+    display: flex;
+    flex-direction: column;
+}
+.signup-direito h1{
+    color: white;
+    font-family: 'Whitney-book';
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0px;
+}
+.signup-direito p{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Whitney-book';
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.signup_esquerdo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+.botao-signup0{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    align-items: center;
+}
+.botao-signup0 div{
+    color: white;
+    font-family: 'Whitney-book';
+    background-color: #7289da;
+    height: 1.3cm;
+    width: 3cm;
+    border-radius: 3px;
+}
+.botao-signup0 div p{
+    text-align: center;
+    font-size: 15px;
+}

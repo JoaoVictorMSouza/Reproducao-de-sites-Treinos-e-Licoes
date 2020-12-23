@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+}
+.linhacima{
+    background-color: mediumturquoise;
+    width: 100vw;
+    height: 33vh;
+}
+.linhameio{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: rgb(26, 128, 1);
+    width: 100vw;
+    height: 33vh;
+}
+.quadrado1, .quadrado2, .quadrado3{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: indianred;
+    width: 290px;
+    height: 100%;
+}
+.quadradopequeno{
+    background-color: lavenderblush;
+    height: 120px;
+    width: 120px;
+}
+.retangulo{
+    background-color: lavenderblush;
+    height: 40px;
+    width: 200px;
+}
+.linhabaixo{
+    background-color: wheat;
+    width: 100vw;
+    height: 315px;
+}

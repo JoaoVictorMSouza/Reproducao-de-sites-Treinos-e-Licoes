@@ -1,0 +1,206 @@
+@font-face{
+    font-family: 'Circular-book';
+    src: url(../style/CircularStd-Book.ttf)
+}
+@font-face{
+    font-family: 'Circular-bold';
+    src: url(../style/CircularStd-Bold.ttf)
+}
+.logo{
+    background-image: url(../imagens/spotify-logo-lockup-197@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    background-size: 195px;
+}
+.botao_azul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.botao_azul div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3B5998;
+    border-radius: 500px;
+    width: 305px;
+    height: 65px;
+}
+.botao_azul div p{
+    max-width: 200px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: 'Circular-bold';
+    margin: 0px;
+    line-height: 1;
+}
+.termos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #88898c;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.termos input{
+    margin-right: 7px;
+}
+.termos p{
+    color: #1ED760;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.hr_ou{
+    padding-left: 760px;
+    padding-right: 760px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.hr_ou p{
+    position: relative;
+    right: 13px;
+    bottom: 10px;
+    font-family: 'Circular-bold';
+    font-size: 14px;
+}
+.linha1{
+    border-top: solid rgb(34, 35, 38,0.2) 1px;
+    width: 173px;
+    margin-right: 27px;
+}
+.linha2{
+    border-top: solid rgb(34, 35, 38,0.2) 1px;
+    flex-grow: 1;
+}
+.senha_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.senha_email p{
+    font-family: 'Circular-bold';
+    font-size: 18px;
+}
+.cima{
+    width: 400px;
+    height: 48px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #dfe0e6;
+    font-size: 15px;
+    font-family: 'Circular-book';
+    color: #1c1c1f;
+}
+.texto_nascimento{
+    display: flex;
+    padding-left: 760px;
+    padding-right: 760px;
+}
+.texto_nascimento p{
+    color: #88898c;
+    font-size: 15px;
+    margin: 0px;
+    font-family: 'Circular-book';
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    padding-left: 760px;
+    padding-right: 760px;
+}
+.dia{
+    width: 85px;
+    border: 1px solid #dfe0e6;
+    border-radius: 3px;
+    height: 48px;
+    margin-right: 20px;
+}
+.data select{
+    border: 1px solid #dfe0e6;
+    border-radius: 3px;
+    height: 48px;
+    width: 175px;
+    margin-right: 20px;
+}
+.ano{
+    width: 100px;
+    border: 1px solid #dfe0e6;
+    border-radius: 3px;
+    height: 48px;
+}
+.escolher{
+    padding-left: 760px;
+    padding-right: 760px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #88898c;
+    font-size: 15px;
+    font-family: 'Circular-book';
+}
+.mb{
+    margin-right: 10px;
+}
+.ma{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.marcar{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 757px;
+    padding-right: 760px;
+    font-size: 12px;
+    text-align: left;
+    color: #88898c;
+}
+.marcar input{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.botao_verde{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1DB954;
+    color: white;
+    border-radius: 500px;
+    width: 305px;
+    height: 45px;
+}
+.botao_verde div p{
+    max-width: 200px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: 'Circular-bold';
+    margin: 0px;
+    line-height: 1;
+}
+.entrar{
+    font-family: 'Circular-book';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 760px;
+    padding-right: 760px;
+    margin-top: 15px;
+}
+.entrar p{
+    margin: 0px;
+    margin-left: 5px;
+    color: #1ED760;
+}

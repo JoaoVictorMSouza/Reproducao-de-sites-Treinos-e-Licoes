@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    background-color: rgb(134,175,213);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+.container{
+    border: solid 10px rgb(112,48,160);
+    border-radius: 5px;
+    margin: 0.5cm;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.gols{
+    border: solid 10px rgb(112,48,160);
+    border-radius: 5px;
+    margin: 0.4cm;
+
+    height: 60%;
+    width: 5cm;
+}
+.meio{
+    height: 9cm;
+    width: 9cm;
+
+    background-color: rgb(121,101,182);
+    border-radius: 5000px;
+}
